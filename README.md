@@ -129,17 +129,17 @@ pre{
   background:var(--code-bg);border:1px solid rgba(45,138,133,.4);
   border-radius:12px;padding:14px;margin:14px 0;
   overflow-x:auto;-webkit-overflow-scrolling:touch;
-  font-size:13px;line-height:1.6;
+  font-size:13.5px;line-height:1.65;
 }
-code{font-family:'SF Mono',Menlo,Consolas,monospace;color:#d6f5ee}
+code{font-family:'SF Mono',Menlo,Consolas,monospace;color:#eefaf6}
 p code,li code,td code{
   background:var(--code-bg);padding:2px 7px;border-radius:6px;
   font-size:13px;color:var(--amber-l);border:1px solid rgba(45,138,133,.3);
 }
-.cm{color:#5f8a85}       /* commentaire */
+.cm{color:#9ed4cc;font-style:italic}       /* commentaire */
 .kw{color:#ff9d5c}       /* mot-clé */
-.fn{color:#6fd3c7}       /* fonction */
-.st{color:#a5d68a}       /* string */
+.fn{color:#7de8db}       /* fonction */
+.st{color:#c9ef92}       /* string */
 .nb{color:#ffc93c}       /* nombre */
 /* ===== TABLEAUX ===== */
 .tbl-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:14px 0}
@@ -152,7 +152,7 @@ tr:nth-child(even) td{background:rgba(255,255,255,.025)}
   background:var(--code-bg);border:1px dashed var(--teal-l);
   border-radius:12px;padding:14px;margin:14px 0;
   font-family:'SF Mono',Menlo,monospace;font-size:12px;line-height:1.5;
-  overflow-x:auto;white-space:pre;color:#bfe3dd;
+  overflow-x:auto;white-space:pre;color:#d8f0ea;
 }
 .schema .lbl{color:var(--amber)}
 /* ===== QUIZ ===== */
